@@ -1,0 +1,56 @@
+
+
+.komanda__wrapper{
+    position: relative;
+    z-index: 20;
+    background-color: #f5f0ec;
+    padding-top: 100px;
+    overflow: hidden;
+    @media (max-width:700px){
+        padding-top: 0px;
+    }
+}
+.komanda__text__container-img{
+    width: 120px;
+    padding-bottom: 20px;
+    @media (max-width:700px){
+        width: 60px;
+        padding-bottom: 10px;    
+    }
+    img{
+        object-fit: cover;
+        display: block;
+    }
+}
+.komanda__container{
+    position: relative;
+    z-index: 20;
+        .komanda__text__container{
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            font-size: 200px;
+            font-family: "BeatriceBold";
+            text-transform: uppercase;
+            font-weight: 700;
+            line-height: 100%;
+            // @media (max-width:978px){
+            //     font-size: 150px;
+            // }
+            @media (max-width:700px){
+                font-size: 96px;
+            }
+            
+            h4{
+                color: #222222;
+            }
+            span{
+                color: transparent;
+                -webkit-text-stroke: 2px #222;
+            }
+            
+            
+        }
+        
+    
+}

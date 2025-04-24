@@ -1,0 +1,147 @@
+
+
+
+.main__bg{
+    position: sticky;
+    position: -webkit-sticky; /* Для поддержки в Safari */
+    top: 0;
+    z-index: 10;
+    overflow: hidden;
+    height: 100vh;
+    pointer-events: none;
+    @media (max-width:500px){
+        height: 100%;
+    }
+}
+
+.main__bg__img{
+    width: 100%;
+    height: 100%;
+    z-index: 15;
+    object-fit: cover;
+    pointer-events: none;
+    position: relative;
+}
+.main__bg__container{
+    z-index: 100;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    .main__bg__container_img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        @media (max-width:500px){
+            object-fit: contain;
+        }
+    }
+    .main__bg__container_1{
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        animation: main__bg__container_1 10s infinite alternate;
+        @keyframes main__bg__container_1 {
+            0%{opacity: 1;}
+            17%{opacity: 1;}
+            34%{opacity: 0;}
+            51%{opacity: 0;}
+            68%{opacity: 0;}
+            84%{opacity: 0;}
+            100%{opacity: 0;}
+        }
+    }        
+    .main__bg__container_2{
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        @media (max-width:500px){
+            position: absolute;
+            left: 0%;
+            top: 0%;
+            }
+        animation: main__bg__container_2 10s infinite alternate;
+        @keyframes main__bg__container_2 {
+            0%{opacity: 0;}
+            17%{opacity: 0;}
+            34%{opacity: 1;}
+            51%{opacity: 0;}
+            68%{opacity: 0;}
+            84%{opacity: 0;}
+            100%{opacity: 0;}
+        }
+    }
+    .main__bg__container_3{
+        position: absolute;
+        left: 0%;
+        top: 0%;
+          @media (max-width:500px){
+            position: absolute;
+            left: 0%;
+            top: 0%;
+            }
+        animation: main__bg__container_3 10s infinite alternate;
+        @keyframes main__bg__container_3 {
+            0%{opacity: 0;}
+            17%{opacity: 0;}
+            34%{opacity: 0;}
+            51%{opacity: 1;}
+            68%{opacity: 0;}
+            84%{opacity: 0;}
+            100%{opacity: 0;}
+        }
+    }
+    .main__bg__container_4{
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        animation: main__bg__container_4 10s infinite alternate;
+        @keyframes main__bg__container_4 {
+            0%{opacity: 0;}
+            17%{opacity: 0;}
+            34%{opacity: 0;}
+            51%{opacity: 0;}
+            68%{opacity: 1;}
+            84%{opacity: 0;}
+            100%{opacity: 0;}
+        }
+    }
+    .main__bg__container_5{
+        position: absolute;
+        left: 0%;
+        top: 0%;
+          @media (max-width:500px){
+            position: absolute;
+            left: 0%;
+            top: 0%;
+            }
+        animation: main__bg__container_5 10s infinite alternate;
+        @keyframes main__bg__container_5 {
+            0%{opacity: 0;}
+            17%{opacity: 0;}
+            34%{opacity: 0;}
+            51%{opacity: 0;}
+            68%{opacity: 0;}
+            84%{opacity: 1;}
+            100%{opacity: 0;}
+        }
+    }
+    .main__bg__container_6{
+        position: absolute;
+        left: 0%;
+        top: 0%;
+
+        animation: main__bg__container_6 10s infinite alternate;
+        @keyframes main__bg__container_6 {
+            0%{opacity: 0;}
+            17%{opacity: 0;}
+            34%{opacity: 0;}
+            51%{opacity: 0;}
+            68%{opacity: 0;}
+            84%{opacity: 0;}
+            100%{opacity: 1;}
+        }
+    }
+}
+

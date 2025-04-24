@@ -1,0 +1,90 @@
+.about__wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 22;
+    background-color: #f5f0ec;
+    padding-top: 100px;
+    overflow: hidden;
+    @media (max-width:700px){
+        padding-top: 0px;
+    }
+    .about__container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Gerhaus Regular";
+    z-index: 100;
+    @media (max-width:717px){
+        width: 100%;
+        height: 100%;
+    }
+    .about__mask, .about__body{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        color: #222;
+        font-size: 64px;
+        line-height: 58px;
+        line-height: 90%;
+        align-items: center;
+        text-align: center;
+        cursor: default;
+        @media (max-width:895px){
+            font-size: 50px;
+            padding-top: 0%;
+        }
+        
+        p{
+            width: 1180px;
+            padding: 100px 20px;
+            @media (max-width:1200px){
+                font-size: 55px;
+                width: 90%;
+                line-height: 80%;
+            }
+            @media (max-width:900px){
+                font-size: 35px;
+                padding: 50px 5px;
+            }
+            @media (max-width:700px){
+                font-size: 20px;
+                line-height: 110%; 
+                width: 100%;
+                padding: 0 10vw;
+            }
+            @media (max-width:400px){
+                padding: 0 5vw;
+            }
+            
+          }
+          span{
+            color: #2a4eea;
+          }
+    }
+    .about__mask{
+        mask-image: url('../../../public/2.svg');
+        mask-repeat: no-repeat;
+        mask-size: 100px;
+        background: #2a4eea;
+        position: absolute;
+        top: 0px;
+        color: #fff;
+        padding-top: 100px;
+        @media (max-width:895px){
+            display: none;
+        }
+        p{
+            text-align: center;
+            width: 100vw;
+            height: 100vh;
+            font-size: 80px;
+            margin: 0%;
+            strong{
+                font-size: 40px;
+                color: #222;
+            }
+        }
+      }
+    }
+}
