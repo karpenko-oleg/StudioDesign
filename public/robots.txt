@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: 
-Sitemap: https://design-interior-q2.ru/sitemap.xml
