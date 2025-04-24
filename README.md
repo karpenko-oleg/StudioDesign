@@ -1,7 +1,7 @@
 # Q2 Studio – Студия дизайна интерьеров (Краснодар)  
 
 <div align="center">
-  <img src="https://via.placeholder.com/1200x630/ffffff/555555?text=Q2+Studio" alt="Q2 Studio Preview" width="600"/>
+  <img src="https://github.com/karpenko-oleg/StudioDesign/blob/main/favicon.ico" alt="Q2 Studio Preview" width="600"/>
 </div>
 
 ## 🚀 О проекте  
